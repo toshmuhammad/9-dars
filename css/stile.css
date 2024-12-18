@@ -1,0 +1,177 @@
+/* inter-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v18-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/inter-v18-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/inter-v18-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/inter-v18-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    height: 100%;
+  }
+
+  ul,
+  ol {
+    list-style: none;
+  }
+
+  img {
+    display: flex;
+    object-fit: cover;
+  }
+
+  a {
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    background-color: #000;
+    font-family: "Inter",sans-serif;
+  }
+
+  .container {
+    width: 384px;
+    height: 625px;
+    border-radius: 12px;
+    background-color: #1F1F1F;
+    text-align: center;
+}
+.container__img {
+    padding-top: 40px;
+    padding-left: 148px;
+}
+.container__h1 {
+    font-size: 24px;
+    line-height: 36px;
+}
+.container__h3 {
+    color: #C4F82A;
+    font-size: 14px;
+    line-height: 21px;
+    padding-bottom: 24px;
+}
+.container__p {
+    font-size: 14px;
+    line-height: 21px;
+    padding-bottom: 24px;
+}
+.container__a--ul {
+    display: flex;
+    margin: 0px 40px 40px 25px;
+    margin-right: 10px;
+}
+
+.box1 {
+    background-color: #333333;
+    border-radius: 8px;
+    width: 304px;
+    height: 45px;
+    margin: 16px;
+    padding: 12px 117px;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.box1:hover {
+    background-color: #C4F82A;
+}
+
+.box2 {
+    background-color: #333333;
+    border-radius: 8px;
+    width: 304px;
+    height: 45px;
+    margin: 16px;
+    padding: 12px 12px;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.box2:hover {
+    background-color: #C4F82A;
+}
+
+.box3 {
+    background-color: #333333;
+    border-radius: 8px;
+    width: 304px;
+    height: 45px;
+    margin: 16px;
+    padding: 12px 117px;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.box3:hover {
+    background-color: #C4F82A;
+}
+
+.box4 {
+    background-color: #333333;
+    border-radius: 8px;
+    width: 304px;
+    height: 45px;
+    margin: 16px;
+    padding: 12px 117px;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.box4:hover {
+    background-color: #C4F82A;
+}
+
+.box5 {
+    background-color: #333333;
+    border-radius: 8px;
+    width: 304px;
+    height: 45px;
+    margin: 16px;
+    padding: 12px 117px;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.box5:hover {
+    background-color: #C4F82A;
+}
